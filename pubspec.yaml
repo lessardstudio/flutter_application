@@ -1,0 +1,26 @@
+name: flutter_application_1
+description: Nathan AI Diet App
+publish_to: 'none' # локальный проект, не публикуем
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP клиент для общения с backend
+  http: ^1.1.0
+
+  # Для иконок (если нужно)
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
